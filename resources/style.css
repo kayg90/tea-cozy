@@ -95,24 +95,26 @@ header {
 
 .locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  background-position: center;
+  background-position: 50% 20%;
   height: 500px;
   width: 1200px;
-  display: inline-block;
 }
 
-.locations div {
-  display: inline-block;
-  justify-content: space-around;
+.flex-locations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+/* .flex-locations > .location {
+  align-items: center;
+} */
 
 .location {
   background-color: black;
   width: 300px;
   opacity: 1;
   margin: 20px;
-  display: block;
-  align-content: space-around;
 }
 
 .location h4 {
